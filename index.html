@@ -4,43 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SaM</title>
-<<<<<<< HEAD
+
     <style>
-        
         @font-face {
             font-family: 'NightmarePills';
             src: url('./NightmarePills-BV2w.ttf') format('truetype');
         }
+
+        /* Centering the entire page */
         body {
             font-family: 'NightmarePills', sans-serif;
-            margin-left: 20px;
-            margin-top: 20px;
             background-color: rgb(233, 228, 228);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
+
+        /* Container for the portfolio content */
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
         h1, a {
             color: aliceblue;
             font-weight: bold; 
             text-shadow: 1px 1px 2px rgb(7, 4, 4); 
         }
+
+        a {
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
-    <h1>My Portfolio</h1>
-    
-    <div>
-=======
-</head>
-<body>
-    <h1 style="margin-left: 20px; margin-top: 20px;">My Portfolio</h1>
-    
-    <div style="margin-left: 20px; margin-top: 20px;">
->>>>>>> 3ca43250c5c5f004fc7030a3c8183dc613a95ff6
-        <a href="about.html" style="text-decoration: none;">About Me</a><br>
-        <a href="skills.html" style="text-decoration: none;">Skills</a><br>
-        <a href="projects.html" style="text-decoration: none;">Projects</a><br>
-        <a href="interests.html" style="text-decoration: none;">Interests</a><br>
-        <a href="contact.html" style="text-decoration: none;">Contact</a><br>
-        <a href="resume.html" style="text-decoration: none;">Resume</a><br>
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <div>
+            <a href="about.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="interests.html">Interests</a>
+            <a href="contact.html">Contact</a>
+            <a href="resume.html">Resume</a>
+        </div>
     </div>
 </body>
 </html>
